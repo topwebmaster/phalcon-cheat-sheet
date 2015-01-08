@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <title>Phalcon Cheat Sheet</title>
-    <meta name="description" content="Phalcon Cheat Sheet , Codes , function , methods of phalcon framework">
+    <meta name="description" content="Шпаргалка для Фалькон , код , функции , методы Фалькон фреймворк">
 
     <link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.1/css/bootstrap.min.css" rel="stylesheet">
     <link rel="stylesheet" href="assets/css/monokai_sublime.css">
@@ -41,27 +41,27 @@
                     <a href="#section-1">MVC</a>                    
                 </li>
                 <li><a href="#section-2">ORM</a></li>
-                <li><a href="#section-3">ODM for Mongo</a></li>
-                <li><a href="#section-4">Template Engine (Volt)</a></li>
+                <li><a href="#section-3">ODM для Mongo</a></li>
+                <li><a href="#section-4">Шаблонизато (Volt)</a></li>
                 <li><a href="#section-5">DI/IOC</a></li>
-                <li><a href="#section-6">Events Management</a></li>
-                <li><a href="#section-7">Encryption</a></li>
-                <li><a href="#section-8">HTTP Request</a></li>
+                <li><a href="#section-6">Менеджмент событий</a></li>
+                <li><a href="#section-7">Шифрование</a></li>
+                <li><a href="#section-8">HTTP запросы</a></li>
                 <li><a href="#section-9">Response</a></li>
                 <li><a href="#section-10">Cookies</a></li>
                 <li><a href="#section-11">Escaping</a></li>
-                <li><a href="#section-12">Filtering</a></li>
-                <li><a href="#section-13">Forms Builder</a></li>
-                <li><a href="#section-14">Validation</a></li>
-                <li><a href="#section-15">Flash Messages</a></li>
-                <li><a href="#section-16">Cache</a></li>
-                <li><a href="#section-17">Pagination</a></li>
-                <li><a href="#section-18">Annotations</a></li>
-                <li><a href="#section-19">Security</a></li>
-                <li><a href="#section-20">Translations</a></li>
+                <li><a href="#section-12">Фильтрация</a></li>
+                <li><a href="#section-13">Построитель форм</a></li>
+                <li><a href="#section-14">Валидация</a></li>
+                <li><a href="#section-15">Всплывающие сообщения</a></li>
+                <li><a href="#section-16">Кеширование</a></li>
+                <li><a href="#section-17">Пагинация</a></li>
+                <li><a href="#section-18">Аннотации</a></li>
+                <li><a href="#section-19">Безопасность</a></li>
+                <li><a href="#section-20">Переводы</a></li>
                 <li><a href="#section-21">Assets Management</a></li>
-                <li><a href="#section-22">Universal Auto-Loader</a></li>
-                <li><a href="#section-23">Logging</a></li>
+                <li><a href="#section-22">Универсальный автозагрузчик</a></li>
+                <li><a href="#section-23">Логирование</a></li>
                 <li><a href="#section-24">CLI</a></li>
             </ul>
         </div>
@@ -71,7 +71,7 @@
             <h2 id="section-1"><a class="headerlink" href="http://docs.phalconphp.com/en/latest/reference/applications.html">¶</a> MVC</h2>
             <pre>
                 <code class="php">
-// Setting route file on service
+// Добавление роутер-файла в сервис
 $di->set('router', function() 
 {
     return include __DIR__ . '[route file]';
